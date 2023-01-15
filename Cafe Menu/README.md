@@ -1,8 +1,8 @@
 # Cafe Menu
- Learn basic CSS by this project
+Implementing CSS by designing a menu page for a cafe webpage.
 
-## Sample Page
-Demo : [Link]()
+## Description
+CSS tells the browser how to display a webpage. We can use CSS to set the color, font, size, and other aspects of HTML elements.
 
 ## Image
-![CSS Color Markers]()
+![Cafe Menu](/Cafe%20Menu/images/cafe-menu.png)
