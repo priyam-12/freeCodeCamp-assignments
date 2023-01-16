@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form" action="/" method="POST">
+    <fieldset>
+      <label id="name-label" for="name">Name: 
+        <input id="name" name="name" type="text" placeholder="enter your name" required/>
+      </label>
+      <label id="email-label" for="email">Email: 
+        <input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="abc@abc.com" required/>
+      </label>
+      <label id="number-label" for="number">Number: 
+        <input id="number" name="number" type="number" min="7890000000" max="7899999999" pattern="[789][0-9]{9}" placeholder="789-1234567"/>
+      </label>
+      <label for="dropdown">Your current role: 
+        <select name="dropdown" id="dropdown">
+            <option value="associate">Associate</option>
+            <option value="analyst">Analyst</option>
+        </select>
+      </label>
+      <p>Your favorite language: </p>
+      <label for="fav-language"> JavaScript
+        <input id="fav-language" type="radio" name="fav-language" value="javascript">
+      </label>
+      <label for="fav-language"> Java
+        <input id="fav-language" type="radio" name="fav-language" value="java">
+      </label>
+      <p>Your favorite library: </p>
+      <label for="fav-library">React
+        <input id="fav-language" type="checkbox" name="fav-library" value="react">
+      </label>
+      <label for="fav-library">Angular
+        <input id="fav-language" type="checkbox" name="fav-library" value="angular">
+      </label>
+      <label>Additional comments: 
+        <textarea></textarea>
+      </label>
+      <button id="submit">Submit</button>
+    </fieldset>
+    </form>
+</body>
+</html>
