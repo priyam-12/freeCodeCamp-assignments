@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    font-size:15px;
+    font-family: 'Raleway', sans-serif;
+    background-color:rgb(255, 255, 255);
+    margin: auto 25px;
+}
+
+h1, p{
+    text-align: center;
+    color: #141430;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: #d6d6df;
+  }
+
+  fieldset{
+    border:0;
+    padding: 1rem ;
+    border-bottom: 2px solid #030329;
+  }
+
+  label{
+    display: block;
+    padding: 0.25rem;
+  }
